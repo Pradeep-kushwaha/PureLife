@@ -1,0 +1,160 @@
+body {
+  font-family: "ubuntu";
+  font-size: 1rem;
+}
+.container-fluid {
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+#hero-image {
+  background-color: #c2d722;
+  height: 500px;
+  color: white;
+}
+.row {
+  padding-top: 50px;
+}
+.download-button {
+  margin: 2% 2% 1% 0;
+}
+.navbar-brand img {
+  height: 20vh;
+  width: 10vw;
+}
+.navbar {
+  background-color: #c2d722;
+}
+.nav-item {
+  padding: 0 25px;
+}
+.nav-link {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: white;
+}
+.location {
+  border-radius: 50%;
+  border: 2px solid yellow;
+  padding: 5px !important;
+  color: green;
+  width: auto;
+}
+.nav-link:hover {
+  border: black;
+  color: black;
+}
+.white-col {
+  color: white !important;
+}
+.pad-5 {
+  padding-left: 50px;
+  border-right: 1px white !important;
+  padding-right: 50px;
+}
+.pad-5 {
+  padding-left: 80px;
+}
+.pad-7 > input > textarea {
+  background-color: black !important;
+}
+::placeholder {
+  color: white !important;
+  opacity: 1;
+}
+.product-section {
+  background-color: #fff;
+  padding: 100px;
+}
+.card-section {
+  margin-top: 60px;
+}
+#features {
+  background-color: #c1ac1f;
+}
+#sale {
+  background-color: #c2d722;
+  height: 700px;
+  text-align: center;
+  padding: 5% 10%;
+}
+.slidebar {
+  width: 70%;
+  border-radius: 20px;
+  padding-top: 2rem;
+}
+.sale-text {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.icon-box {
+  float: left;
+  padding-right: 15px;
+}
+.feature-single {
+  margin-bottom: 60px;
+}
+#contact-us {
+  background-color: #343a40;
+}
+hr {
+  background-color: #343a40;
+  color: #8998a3;
+}
+.copyright {
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  background-color: #343a40;
+}
+.our-products {
+  text-align: center;
+  padding-top: 15px;
+  color: black;
+  font-weight: bolder;
+}
+.card-image {
+  height: 150px;
+  width: 150px;
+  border: 2px solid #c1ac1f;
+  border-radius: 50%;
+  padding: 10px;
+}
+.card-body{
+  text-align: center;
+  text-align: justify;
+}
+@media only screen and (max-width: 912px) {
+  .navfont {
+    padding: 0;
+    margin-right: 10rem;
+    width: auto;
+  }
+  .container-fluid {
+    padding: 0.25rem 2rem;
+  }
+  .col-md-6 {
+    margin-top: 20px;
+  }
+  #sale {
+    height: auto;
+    max-width: 100%;
+  }
+  textarea {
+    width: 250px;
+  }
+  .about-logo {
+    height: auto;
+    max-width: 100%;
+  }
+  .slidebar {
+    height: auto;
+    max-width: 100%;
+  }
+  .sale-text {
+    height: auto;
+  }
+  .natural-product {
+    visibility: hidden;
+  }
+}
